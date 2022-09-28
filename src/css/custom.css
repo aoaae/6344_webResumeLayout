@@ -1,0 +1,45 @@
+main{
+    background-color: blueviolet;
+    height: 500px;
+    width: 1000px;
+
+    /* จัดเนื้อหาเข้ากลาง */
+    margin-right: auto;  
+    margin-left: auto;
+}
+header{
+    background-color: aqua;
+    overflow: hidden;
+}
+#menu{
+    background-color: aquamarine;
+    width: 400px;
+    float: right;
+}
+#logo{
+    background-color: blue;
+    width: 40px;
+    float: left;
+}
+#slide{
+    background-color: brown;
+    height: 200px;  
+
+    /* รูปที่เซฟมาต้องมีขนาด 1000x200 */
+}
+#content{
+    background-color: aquamarine;
+    height: 100px;
+}
+.subcontent{
+    background-color: bisque;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float: left;
+    margin: 10px;
+}
