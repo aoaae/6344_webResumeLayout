@@ -1,6 +1,6 @@
 main{
-    background-color: blueviolet;
-    height: 500px;
+    background-color: rgb(155, 191, 255);
+    height: 570px;
     width: 1000px;
 
     /* จัดเนื้อหาเข้ากลาง */
@@ -8,18 +8,22 @@ main{
     margin-left: auto;
 }
 header{
-    background-color: aqua;
+    background-color: rgb(255, 111, 0);
     overflow: hidden;
 }
+body{
+    background-image: linear-gradient(to right bottom, #0057c1, #4479d1, #719cde, #9ebee9, #cfe0f4);
+}
 #menu{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 400px;
     float: right;
 }
 #logo{
-    background-color: blue;
+    /* background-color: blue; */
     width: 40px;
     float: left;
+    border-radius: 50%;
 }
 #slide{
     background-color: brown;
@@ -29,10 +33,20 @@ header{
 }
 #content{
     background-color: aquamarine;
-    height: 100px;
+    margin-left: 20px;
+    margin-right: auto;
+
+    /* height: 100px; */
 }
 .subcontent{
     background-color: bisque;
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px tomato;
+    padding: 5px;
 }
 ul{
     list-style-type: none;
